@@ -72,3 +72,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.linkforpost{
+  color: #00bd7e;
+}

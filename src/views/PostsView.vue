@@ -15,7 +15,7 @@
     <p v-if="loading">Loading posts...</p>
     <p v-if="error">{{ error.message }}</p>
     <p v-if="posts" v-for="post in posts" :key="post.id">
-      <RouterLink :to="`/post/${post.id}`">{{ post.title }}</RouterLink>
+      <RouterLink class="linkforpost" :to="`/post/${post.id}`">{{ post.title }}</RouterLink>
       <p>{{ post.body }}</p>
     </p>
   </main>
